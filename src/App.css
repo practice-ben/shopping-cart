@@ -1,3 +1,24 @@
 .App {
   width: 100%;
 }
+
+.navbar {
+  background-color: rgba(255, 0, 0, 0.7);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+  box-shadow: 0px 1px 5px blue;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: all linear 0.5s;
+}
+
+.navbar a.active {
+  font-weight: 600;
+  font-size: 2rem;
+}
