@@ -1,8 +1,12 @@
 import React from 'react';
+import List from './List';
+import services from '../data/servicesData';
 
 function Services() {
   return (
-    <h1>This is the services page</h1>
+    <div className="list-container">
+      <List list={services} />
+    </div>
   );
 }
 
